@@ -6,9 +6,6 @@
 #SBATCH -t 3-00:00:00
 #SBATCH -J separate_tables
 
-INPUT_BED=/proj/sens2017106/nobackup/denise/output/tables/output_table2.bed 
-INPUT_BED_STATS=/proj/sens2017106/nobackup/denise/output/tables/output_table_sd_mean.bed
-
 module load bioinfo-tools tabix
 
 # Compress BED file

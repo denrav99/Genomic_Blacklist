@@ -2,7 +2,6 @@ import os
 import pandas as pd
 from glob import glob
 
-BED_DIR = "/proj/sens2017106/nobackup/denise/2kbp_bins_bed"
 OUTPUT_FILE = "output_table2.bed"
 
 bed_files = sorted(glob(os.path.join(BED_DIR, "*normalized.bed")))

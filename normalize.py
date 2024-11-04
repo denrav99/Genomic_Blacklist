@@ -2,7 +2,6 @@ import pandas as pd
 import os
 import glob
 
-BED_DIR = "/proj/sens2017106/nobackup/denise/2kbp_bins_bed"
 chromosome_names =["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "X", "Y"]
 
 for bed in sorted(glob.glob(os.path.join(BED_DIR, "*"))):
